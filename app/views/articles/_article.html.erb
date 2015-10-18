@@ -1,0 +1,12 @@
+<h2><%= article.title %></h2>
+
+<small class="text-muted"><%= article.created_at.strftime('%-d %B %Y %H:%M:%S') %></small>
+
+<p>
+  <%= article.body %>
+</p>
+
+<p>
+  <%= link_to 'Edit', edit_article_path(article), class: 'btn btn-default' %>
+</p>
+<hr/>

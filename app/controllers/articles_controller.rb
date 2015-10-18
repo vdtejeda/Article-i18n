@@ -11,7 +11,7 @@ class ArticlesController < ApplicationController
   def create
     @article = Article.new(article_params)
     if @article.save
-      flash[:success] = "The article was published successfully"
+      flash[:success] = t('forms.messages.success')
       redirect_to articles_path
     else
       render 'new'
@@ -23,13 +23,13 @@ class ArticlesController < ApplicationController
 
   def update
     if @article.update_attributes(article_params)
-      flash[:sucess] = "The article was updated successfully"
+      flash[:sucess] = t('forms.messages.success')
       redirect_to articles_path
     else
       render 'edit'
     end
   end
-  
+
   private
 
   def set_article

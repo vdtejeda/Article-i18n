@@ -20,4 +20,26 @@
 # available at http://guides.rubyonrails.org/i18n.html.
 
 en:
-  hello: "Hello world"
+  activerecord:
+    attributes:
+      article:
+        title: "Title"
+        body: "Body"
+  forms:
+    messages:
+      success: "Operation succeeded!"
+    buttons:
+      edit: "Edit"
+      submit: "Submit"
+  menu:
+    new_article: "Add an article"
+  articles:
+    index:
+      count:
+        one: "%{count} article"
+        other: "%{count} articles"
+      title: "List of articles"
+    edit:
+      title: "Add article"
+    new:
+      title: "New article"

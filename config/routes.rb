@@ -1,6 +1,7 @@
 Rails.application.routes.draw do
   resources :articles, only: [:index, :new, :create, :edit, :update]
   root to: 'articles#index'
+  get '/change_locale/:locale', to: 'settings#change_locale', as: :change_locale
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 

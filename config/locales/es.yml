@@ -12,6 +12,10 @@ es:
      submit: "Enviar"
   menu:
     new_article: "Añadir un artículo"
+    languages:
+      lang: "Idioma"
+      es: "Español"
+      en: "Inglés"
   articles:
     index:
       count:

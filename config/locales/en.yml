@@ -33,6 +33,10 @@ en:
       submit: "Submit"
   menu:
     new_article: "Add an article"
+    languages:
+      lang: "Language"
+      es: "Spanish"
+      en: "English"
   articles:
     index:
       count:

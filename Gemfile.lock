@@ -1,3 +1,11 @@
+GIT
+  remote: git://github.com/ncri/globalize.git
+  revision: 05ea52429ebd4f8c4cbd2595ab5269ad35d6830a
+  specs:
+    globalize (4.0.2)
+      activemodel (>= 4.2.0.beta4, < 4.3)
+      activerecord (>= 4.2.0.beta4, < 4.3)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -184,6 +192,7 @@ DEPENDENCIES
   byebug
   capybara
   coffee-rails (~> 4.1.0)
+  globalize!
   jbuilder (~> 2.0)
   jquery-rails
   pg
